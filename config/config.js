@@ -1,1 +1,34 @@
+const config = {
+  development: {
+    server: {
+      port: 3000,
+      host: 'localhost'
+    },
+    database: {
+      host: 'db',
+      port: 3307,
+      username: 'myuser',
+      password: 'mypassword',
+      database: 'mydb'
+    },
+  },
+  test: {
+    server: {
+      port: 3000,
+      host: 'localhost'
+    },
+    database: {
+      host: 'localhost',
+      port: 3307,
+      username: 'myuser',
+      password: 'mypassword',
+      database: 'mydb'
+    },
+  }
+};
 
+const env = 'development';
+
+const configuration = config[env];
+
+module.exports = configuration;
