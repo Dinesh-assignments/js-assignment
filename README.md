@@ -2,25 +2,25 @@
 ````
 instructions.txt has the instructions to run the service
 guidelines.txt has the guidelines to be followed while solving and submitting the assignment
-problem-statement.txt has the problems statements to be solved
+problem-statement.txt has the problem statements to be solved
 ````
 
 ## Problem 1
 
 ### Solution:- 
 
-I have implemented the basics of a local cache to reduce latency time for each query. This can be further improved by using Redis, which would be even better. Currently, I am adding matches corresponding to each tour name in a map. However, I may need to add an eviction policy as well, especially in cases where the tour count is very high.
+I have implemented the basics of a local cache to reduce latency time for each query. This can be further improved by using Redis, which would be even better. Currently, I am adding matches corresponding to each tour name on a map. However, We may need to add an eviction policy, especially in cases where the tour count is very high.
 
 
 ## Problem 2
 
 ### Solution:-
-I have added all the additional required fields in the /sport/tour/match endpoint.
+I have added all required fields in the /sport/tour/match endpoint.
 
 ## Problem 3
 
 ### Solution:
-Created a News Table in Database with the following field
+Created a News Table in the Database with the following field
 
 | Column  | Type | Description |
 | ------------- | ------------- |  ------------- |
